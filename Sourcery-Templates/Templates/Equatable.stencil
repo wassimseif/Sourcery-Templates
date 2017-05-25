@@ -1,0 +1,14 @@
+{% for type in types.implementing.AutoMappable %}
+//MARK: {{type.name}} Mappable
+extension {{type.name}} : Mappable{
+
+  required init?(map: Map){}
+	private override init(){}
+
+    func mapping(map: Map)
+      {% for var in type.storedVariables %}
+      {{var.name}} <- map["{{var.name}}"]
+      {% endfor %}
+    }
+}
+{% endfor %}

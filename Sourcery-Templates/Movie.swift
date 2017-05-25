@@ -15,7 +15,7 @@ import Foundation
 
 
 
-struct Movie  {
+class Movie  {
     
     var banner : AnyObject?
     var cast : String?
@@ -31,4 +31,4 @@ struct Movie  {
     
 }
 
-extension Movie : AutoMappable {}
+extension Movie : AutoInitializer {}

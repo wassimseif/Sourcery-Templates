@@ -1,0 +1,15 @@
+
+{% for type in types.implementing.AutoInitializer %}
+//MARK: {{type.name}} Initialization
+extension {{type.name}}{
+
+convenience init({% for var in type.storedVariables %}{{var.name}}:{{var.typeName}},{% endfor %}){
+  self.init()
+  {% for var in type.storedVariables %}
+  self.{{var.name}} = {{var.name}}
+  {% endfor %}
+}
+}
+
+
+{% endfor %}

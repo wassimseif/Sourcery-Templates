@@ -9,3 +9,5 @@
 import Foundation
 
 protocol AutoMappable {}
+
+protocol AutoInitializer {}

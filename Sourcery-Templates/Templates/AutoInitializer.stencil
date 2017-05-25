@@ -3,7 +3,9 @@
 //MARK: {{type.name}} Initialization
 extension {{type.name}}{
 
-convenience init({% for var in type.storedVariables %}{{var.name}}:{{var.typeName}},{% endfor %}){
+convenience init({% for var in type.storedVariables %}{% if forloop.last %}{{var.name}} : {{var.typeName}}{% else %}{{var.name}} : {{var.typeName}},
+                {% endif %}{% endfor %}){
+
   self.init()
   {% for var in type.storedVariables %}
   self.{{var.name}} = {{var.name}}

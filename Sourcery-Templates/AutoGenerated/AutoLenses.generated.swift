@@ -76,7 +76,7 @@ extension Movie {
     set: { summary, movie in
        Movie(banner: movie.banner, cast: movie.cast, director: movie.director, genre: movie.genre, id: movie.id, releaseDate: movie.releaseDate, runTime: movie.runTime, summary: summary, thumb: movie.thumb, title: movie.title, trailer: movie.trailer)
     }
-    )
+  )
   static let thumbLens = Lens<Movie, String?>(
     get: { $0.thumb },
     set: { thumb, movie in

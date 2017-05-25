@@ -5,7 +5,18 @@
 //MARK: Movie Initialization
 extension Movie{
 
-convenience init(banner:AnyObject?,cast:String?,director:String?,genre:String?,id:Int?,releaseDate:AnyObject?,runTime:String?,summary:String?,thumb:String?,title:String?,trailer:String?){
+convenience init(banner : AnyObject?,
+                cast : String?,
+                director : String?,
+                genre : String?,
+                id : Int?,
+                releaseDate : AnyObject?,
+                runTime : String?,
+                summary : String?,
+                thumb : String?,
+                title : String?,
+                trailer : String?){
+
   self.init()
   self.banner = banner
   self.cast = cast

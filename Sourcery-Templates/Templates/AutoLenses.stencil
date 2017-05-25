@@ -25,7 +25,7 @@ func |> <A, B, C> (f: @escaping (A) -> B, g: @escaping (B) -> C) -> (A) -> C {
     return { g(f($0)) }
 }
 
-{% for type in types.implementing.AutoLenses|struct %}
+{% for type in types.implementing.AutoLenses %}
 extension {{ type.name }} {
 {% for variable in type.variables %}
   static let {{ variable.name }}Lens = Lens<{{type.name}}, {{variable.typeName}}>(

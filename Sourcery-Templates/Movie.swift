@@ -32,3 +32,4 @@ class Movie  {
 }
 
 extension Movie : AutoInitializer {}
+extension Movie : AutoLenses {}

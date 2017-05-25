@@ -11,3 +11,4 @@ import Foundation
 protocol AutoMappable {}
 
 protocol AutoInitializer {}
+protocol AutoLenses {}

@@ -35,6 +35,13 @@
 		11CFE70C1ED73A0400F7C7AD /* Mappable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.generated.swift; sourceTree = "<group>"; };
 		11CFE70E1ED73ADE00F7C7AD /* AutoInitializer.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AutoInitializer.stencil; sourceTree = "<group>"; };
 		11CFE70F1ED73B2100F7C7AD /* AutoInitializer.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoInitializer.generated.swift; sourceTree = "<group>"; };
+		11CFE7111ED73F5900F7C7AD /* AutoCases.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AutoCases.stencil; sourceTree = "<group>"; };
+		11CFE7121ED73F5900F7C7AD /* AutoEquatable.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AutoEquatable.stencil; sourceTree = "<group>"; };
+		11CFE7131ED73F5900F7C7AD /* AutoHashable.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AutoHashable.stencil; sourceTree = "<group>"; };
+		11CFE7141ED73F5900F7C7AD /* AutoLenses.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AutoLenses.stencil; sourceTree = "<group>"; };
+		11CFE7151ED73F5900F7C7AD /* AutoMockable.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AutoMockable.stencil; sourceTree = "<group>"; };
+		11CFE7161ED73F5900F7C7AD /* Decorator.swifttemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Decorator.swifttemplate; sourceTree = "<group>"; };
+		11CFE7171ED73F5900F7C7AD /* LinuxMain.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LinuxMain.stencil; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +86,13 @@
 		11041AAA1ED733D0000D0767 /* Templates */ = {
 			isa = PBXGroup;
 			children = (
+				11CFE7111ED73F5900F7C7AD /* AutoCases.stencil */,
+				11CFE7121ED73F5900F7C7AD /* AutoEquatable.stencil */,
+				11CFE7131ED73F5900F7C7AD /* AutoHashable.stencil */,
+				11CFE7141ED73F5900F7C7AD /* AutoLenses.stencil */,
+				11CFE7151ED73F5900F7C7AD /* AutoMockable.stencil */,
+				11CFE7161ED73F5900F7C7AD /* Decorator.swifttemplate */,
+				11CFE7171ED73F5900F7C7AD /* LinuxMain.stencil */,
 				11041AAC1ED733EB000D0767 /* Mappable.stencil */,
 				11CFE70E1ED73ADE00F7C7AD /* AutoInitializer.stencil */,
 			);
